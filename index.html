@@ -4,7 +4,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="sprint.js" type="text/javascript"></script>
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <title></title>
+  <title>Form Validations</title>
 </head>
 
 <body>
@@ -13,28 +13,39 @@
 
     <div class="field-wrapper">
       <label for="title">Title:</label><br>
-      <input type="text" id="title">
+      <input type="text" name="title" id="title">
       <p class="field-text"></p>
     </div>
 
     <div class="field-wrapper">
       <label for="body">Body:</label><br>
-      <textarea id="body" rows="5" cols="60"></textarea>
+      <textarea id="body" name="body" rows="5" cols="60"></textarea>
       <p class="field-text"></p>
     </div>
 
     <div class="field-wrapper">
       <label for="password">Password:</label><br>
-      <input type="password" id="password">
+      <input type="password" name="password" id="password">
       <p class="field-text"></p>
     </div>
 
     <div class="field-wrapper">
       <label for="confirm-password">Confirm Password:</label><br>
-      <input type="password" id="confirm-password">
+      <input type="password" name="confirm-password" id="confirm-password">
       <p class="field-text"></p>
       <br>
       <p class="field-text confirm-text"></p>
+    </div>
+
+    <div class="select-wrapper">
+      <ul class="selected-list">
+        <li class="selected">Click to slide...</li>
+      </ul>
+      <ul class="select-list hidden">
+        <li class="list-option">List Element</li>
+        <li class="list-option">List Element</li>
+        <li class="list-option">List Element</li>
+      </ul>
     </div>
 
     <input type="submit">

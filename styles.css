@@ -22,3 +22,71 @@
 .invalid {
   border: 2px solid red;
 }
+
+.select-wrapper {
+  margin: 20px auto;
+}
+
+ul {
+  margin: 0 auto;
+  list-style-position: inside;
+}
+
+.selected-list {
+  list-style-type: none;
+}
+
+.selected, .list-option {
+  line-height: 25px;
+  min-height: 25px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.selected {
+  padding-left: 15px;
+  background-color: yellow;
+  text-align: center;
+}
+
+.list-option {
+  padding-left: 15px;
+  background-color: lightgray;
+}
+
+.list-option:hover {
+  background-color: lightyellow;
+}
+
+.picture {
+  height: 75%;
+  width: 75%;
+  display: block;
+  margin: 100px auto;
+  border: 1px solid #aaa;
+}
+
+.tagger {
+  height: 50px;
+  width: 50px;
+  border: 2px solid green;
+  position: absolute;
+  font-weight: bold;
+}
+
+.dropdown {
+  width: 64px;
+  padding: 0;
+  border: 2px solid green;
+  position: absolute;
+  list-style: none inside;
+}
+
+.dropdown li {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.dropdown li:hover {
+  background-color: #999;
+}
